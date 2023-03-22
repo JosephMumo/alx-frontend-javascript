@@ -1,6 +1,6 @@
 export default function getResponseFromAPI(Boolean) {
-	return new Promise(function(resolve, reject) {
-		let object = {
+	return new Promise(function(resolve, reject) => {
+		const object = {
 			status: 200,
 			body: 'Success'};
 		if (success === true) {
